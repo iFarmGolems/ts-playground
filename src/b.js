@@ -1,0 +1,1 @@
+const bValue = 2;
