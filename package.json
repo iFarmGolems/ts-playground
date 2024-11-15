@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@types/luxon": "^3.4.2",
     "vue": "2"
   }
 }

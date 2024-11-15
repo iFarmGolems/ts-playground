@@ -1,7 +1,9 @@
+/// <reference path="../src/b.js" />
+
 import Vue from "vue";
 
 declare global {
   interface Window {
-    Vue: typeof Vue;
+    bModule: typeof bModule
   }
 }

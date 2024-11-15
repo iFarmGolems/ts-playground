@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "target": "ESNext",
     "lib": ["DOM", "ESNext"],
-    "typeRoots": ["./node_modules/@types", "./typings"]
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/vue/types",
+      "./typings"
+    ],
+    "moduleDetection": "force"
   },
-  "include": ["./src/**/*", "./typings/**/*"]
+  "include": ["./typings/**/*", "./src/**/*"]
 }
